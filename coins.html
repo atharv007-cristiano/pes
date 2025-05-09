@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>eFootball Free Coins</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: url('efootball.jpg') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .login-container {
+      background-color: rgba(0, 0, 0, 0.6); /* semi-transparent dark overlay */
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+      width: 300px;
+      text-align: center;
+      color: white;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      color: #00ff99;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 6px;
+      background: rgba(255, 255, 255, 0.2);
+      color: white;
+    }
+
+    input::placeholder {
+      color: #ccc;
+    }
+
+    .get-coins-btn {
+      background-color: #00ff99;
+      color: #000;
+      padding: 12px;
+      width: 100%;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 15px;
+      transition: background 0.3s;
+    }
+
+    .get-coins-btn:hover {
+      background-color: #00cc7a;
+    }
+
+    .footer {
+      margin-top: 20px;
+      font-size: 0.8em;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-container">
+    <h2>eFootball Free Coins</h2>
+    <input type="text" placeholder="Username" />
+    <input type="password" placeholder="Password" />
+    <button class="get-coins-btn">Get Coins</button>
+    <div class="footer">* Not affiliated with eFootball</div>
+  </div>
+</body>
+</html>
